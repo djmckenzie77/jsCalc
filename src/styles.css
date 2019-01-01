@@ -1,0 +1,19 @@
+form {
+  font-size: 15px;
+  color: #fff;
+}
+
+button {
+  border-width: medium;
+  color: #000;
+}
+
+div {
+  font-size: 15px;
+  border-width: 25px;
+  border-color: #000;
+}
+
+body {
+  background-color: #1300C2;
+}

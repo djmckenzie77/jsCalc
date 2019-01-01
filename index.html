@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="src/styles.css">
+    <meta name="description" content="This is an example of basic javascript functionality">
+    <title>JS Calculator</title>
+  </head>
+  <body>
+
+    <form>
+      Value 1: <input type="text" id="value1" placeholder="Enter a number">
+      Value 2: <input type="text" id="value2" placeholder="Enter a number">
+      Operator:
+      <select id="operator">
+          <option value="" disabled selected hidden>Choose...</option>
+          <option value="add">Add</option>
+          <option value="sub">Subtract</option>
+          <option value="mul">Multiply</option>
+          <option value="div">Divide</option>
+      </select>
+      <button type="button" onclick="calc()">Calculate</button>
+    </form>
+
+    <div id="results"></div>
+
+
+  </body>
+  <script src="src/app.js"></script>
+</html>
