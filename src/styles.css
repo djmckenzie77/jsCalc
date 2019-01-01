@@ -1,19 +1,15 @@
 form {
-  font-size: 15px;
-  color: #fff;
+	font-size: 15px;
+	color: #000;
 }
 
 button {
-  border-width: medium;
-  color: #000;
+	border-width: medium;
+	color: #000;
 }
 
 div {
-  font-size: 15px;
-  border-width: 25px;
-  border-color: #000;
-}
-
-body {
-  background-color: #1300C2;
+	font-size: 15px;
+	border-width: 25px;
+	border-color: #000;
 }
