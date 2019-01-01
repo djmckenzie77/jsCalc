@@ -14,3 +14,22 @@ div {
 	border-color: #000;
 }
 
+#value1 {
+	border-color: rgb(241, 7, 46);
+	border-radius: 7px;
+	width: 100px;
+}
+
+form {
+	color: green;
+}
+
+#value2 {
+	border-color: rgba(241, 7, 46);
+	border-radius: 7px;
+	width: 100px;
+}
+
+option[value="add"] {
+	color: red;
+}
