@@ -48,3 +48,7 @@ option[value="add"] {
 	color: white;
 	background-color: black;
 }
+
+#results {
+	background-color: blue;
+}
