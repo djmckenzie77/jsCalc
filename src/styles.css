@@ -5,7 +5,9 @@ form {
 
 button {
 	border-width: medium;
-	color: #000;
+	background-color: black;
+	width: 70px;
+	color: #fff;
 }
 
 div {
@@ -17,6 +19,7 @@ div {
 #value1 {
 	border-color: rgb(241, 7, 46);
 	border-radius: 7px;
+	padding: 0;
 	width: 100px;
 }
 
@@ -27,9 +30,21 @@ form {
 #value2 {
 	border-color: rgba(241, 7, 46);
 	border-radius: 7px;
+	padding: 0;
 	width: 100px;
 }
 
 option[value="add"] {
 	color: red;
+}
+
+#operator {
+	border-radius: 5px;
+	background-color: #000;
+	color: #fff;
+}
+
+::placeholder {
+	color: red;
+	background-color: black;
 }
