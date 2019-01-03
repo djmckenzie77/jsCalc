@@ -1,50 +1,54 @@
 form {
-	font-size: 15px;
-	color: #000;
+  font-size: 15px;
+  color: #000;
 }
 
 button {
-	border-width: medium;
-	background-color: black;
-	width: 70px;
-	color: #fff;
+  border-width: medium;
+  background-color: black;
+  width: 70px;
+  color: #fff;
 }
 
 div {
-	font-size: 15px;
-	border-width: 25px;
-	border-color: #000;
+  font-size: 15px;
+  border-width: 25px;
+  border-color: #000;
 }
 
 #value1 {
-	border-color: rgb(241, 7, 46);
-	border-radius: 7px;
-	padding: 0;
-	width: 100px;
+  border-color: rgb(241, 7, 46);
+  border-radius: 7px;
+  padding: 0;
+  width: 120px;
 }
 
 form {
-	color: green;
+  color: green;
 }
 
 #value2 {
-	border-color: rgba(241, 7, 46);
-	border-radius: 7px;
-	padding: 0;
-	width: 100px;
+  border-color: rgba(241, 7, 46);
+  border-radius: 7px;
+  padding: 0;
+  width: 120px;
 }
 
 option[value="add"] {
-	color: red;
+  color: red;
 }
 
 #operator {
-	border-radius: 5px;
-	background-color: #000;
-	color: #fff;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
 }
 
 ::placeholder {
-	color: red;
-	background-color: black;
+  color: red;
+  background-color: black;
+}
+
+#results {
+  background-color: blue;
 }
